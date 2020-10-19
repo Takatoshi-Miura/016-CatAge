@@ -12,7 +12,6 @@
 // UIの設定
 @property (weak, nonatomic) IBOutlet UITextField *catAgeField;
 @property (weak, nonatomic) IBOutlet UILabel *humanAgeLabel;
-- (IBAction)calcButton:(id)sender;
 
 // メソッドの宣言
 - (double)catAgeToHumanAge:(double)catAge;

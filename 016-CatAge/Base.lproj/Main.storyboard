@@ -51,26 +51,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgU-uk-vHs">
-                                <rect key="frame" x="28" y="136" width="46" height="30"/>
-                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="YOg-Hs-7SA"/>
-                                </constraints>
-                                <state key="normal" title="換算"/>
-                                <connections>
-                                    <action selector="calcButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TVf-6P-lA9"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="avS-IW-ZXi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="9Iw-wB-2XK"/>
                             <constraint firstItem="r7g-Wn-Ndr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="J5V-jk-szj"/>
-                            <constraint firstItem="WgU-uk-vHs" firstAttribute="top" secondItem="aSN-4n-WFO" secondAttribute="bottom" constant="25" id="KbJ-xr-LMf"/>
                             <constraint firstItem="r7g-Wn-Ndr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ven-9Y-av7"/>
-                            <constraint firstItem="WgU-uk-vHs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="Wyh-N4-x2b"/>
                             <constraint firstItem="vhf-66-Ny6" firstAttribute="leading" secondItem="aSN-4n-WFO" secondAttribute="trailing" constant="33" id="ahF-rq-NPA"/>
                             <constraint firstItem="vhf-66-Ny6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bG7-cm-M5r"/>
                             <constraint firstItem="r7g-Wn-Ndr" firstAttribute="leading" secondItem="avS-IW-ZXi" secondAttribute="trailing" constant="33" id="d4P-qH-3Vw"/>
@@ -89,9 +76,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
