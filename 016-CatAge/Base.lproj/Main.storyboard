@@ -25,6 +25,7 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="calc:" destination="BYZ-38-t0r" eventType="editingChanged" id="xKA-EU-5F4"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="BPb-2m-WHy"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人年齢" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSN-4n-WFO">
