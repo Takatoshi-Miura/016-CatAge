@@ -26,8 +26,8 @@
     // Do any additional setup after loading the view.
 }
 
-// 計算ボタンの処理
-- (IBAction)calcButton:(id)sender {
+// 計算処理
+- (IBAction)calc:(id)sender {
     // 猫年齢計算
     double catAge = [_catAgeField.text doubleValue];
     double humanAge = [self catAgeToHumanAge:catAge];
