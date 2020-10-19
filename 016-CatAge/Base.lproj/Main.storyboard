@@ -58,6 +58,9 @@
                                     <constraint firstAttribute="width" constant="46" id="YOg-Hs-7SA"/>
                                 </constraints>
                                 <state key="normal" title="換算"/>
+                                <connections>
+                                    <action selector="calcButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TVf-6P-lA9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -75,6 +78,10 @@
                             <constraint firstItem="aSN-4n-WFO" firstAttribute="top" secondItem="avS-IW-ZXi" secondAttribute="bottom" constant="25" id="geC-e9-Nvi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="catAgeField" destination="r7g-Wn-Ndr" id="pHF-vW-KlF"/>
+                        <outlet property="humanAgeLabel" destination="vhf-66-Ny6" id="b1M-FR-1qm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
