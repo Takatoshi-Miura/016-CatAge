@@ -57,4 +57,16 @@
     return age;
 }
 
+// 猫年齢入力制限
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(nonnull NSString *)string {
+    // 値の取得
+    NSMutableString *tmp = [_catAgeField.text mutableCopy];
+    [tmp replaceCharactersInRange:range withString:string];
+    
+    // 年齢100以下かつ4文字以内ならOK
+    BOOL isAgeLimit = [tmp doubleValue] <= 100;
+    BOOL isLengthLimit = [tmp length] <= 4;
+    return isAgeLimit && isLengthLimit;
+}
+
 @end
